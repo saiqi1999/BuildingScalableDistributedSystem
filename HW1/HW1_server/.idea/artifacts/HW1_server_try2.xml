@@ -1,0 +1,19 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="HW1_server_try2">
+    <output-path>$PROJECT_DIR$/out/artifacts/HW1_server_try2</output-path>
+    <root id="archive" name="HW1_server_try2.war">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="HW1_server" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="library" level="project" name="Maven: com.googlecode.json-simple:json-simple:1.1.1" />
+          <element id="library" level="project" name="Maven: junit:junit:4.10" />
+          <element id="library" level="project" name="Maven: org.hamcrest:hamcrest-core:1.1" />
+        </element>
+      </element>
+      <element id="javaee-facet-resources" facet="HW1_server/web/Web" />
+      <element id="javaee-facet-resources" facet="HW1_server/javaeeApplication/javaEEApplication" />
+    </root>
+  </artifact>
+</component>
