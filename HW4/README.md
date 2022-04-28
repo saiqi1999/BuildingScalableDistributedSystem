@@ -28,7 +28,7 @@ Means target Redis db server ip = 54.69.36.225, build index on that for skier ki
 HOW TO ACCESS: suppose server ip is localhost
 
 GET http://localhost:8080/HW3_server/resorts/1/seasons/2/day/1/skiers \
-Get the number of unique skiers in resort 1, season 2, day 1. (Might be slow)
+Get the number of unique skiers in resort 1, season 2, day 1. (Might be slow)\
 CURRENT VERSION IS NOT CAPABLE FOR LARGE NUMBER OF REQUEST ON THIS.
 
 GET http://localhost:8080/HW3_server/skiers/1/seasons/2/days/3/skiers/15237 \
