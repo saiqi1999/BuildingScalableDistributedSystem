@@ -2,13 +2,11 @@ HOW TO START:
 
 1. Deploy or start [Server] locally on a tomcat instance, RMQ, Redis ip hardcoded need to change possibly
 2. Redis server need to start and accept connection remotely to get data
-
-If you want to populate or provide data in future, the steps:
-1. Ensure Redis server started and protected mode off, firewall added your ip access, port 6379
-2. Use "remove" class in [Client] and purge all data in Redis, Redis ip hardcoded
-3. Start [Consumer], firewall add consumer ip to Redis's security group, port 6379
-4. Start [Server] locally or remote, some ip hardcoded need to change possibly
-5. Use [Client] reach [Server] by giving proper arguments, run populate method
+3. Ensure Redis server started and protected mode off, firewall added your ip access, port 6379
+4. Use "remove" class in [Client] and purge all data in Redis, Redis ip hardcoded
+5. Start [Consumer], firewall add consumer ip to Redis's security group, port 6379
+6. Start [Server] locally or remote, some ip hardcoded need to change possibly
+7. Use [Client] reach [Server] by giving proper arguments, run populate method
 
 
 
@@ -31,6 +29,7 @@ HOW TO ACCESS: suppose server ip is localhost
 
 GET http://localhost:8080/HW3_server/resorts/1/seasons/2/day/1/skiers \
 Get the number of unique skiers in resort 1, season 2, day 1. (Might be slow)
+CURRENT VERSION IS NOT CAPABLE FOR LARGE NUMBER OF REQUEST ON THIS.
 
 GET http://localhost:8080/HW3_server/skiers/1/seasons/2/days/3/skiers/15237 \
 Get the total vertices for skier 15237 in resort 1, season 2, day 3.
